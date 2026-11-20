@@ -5,7 +5,6 @@ int power(int base, int exp){
     for(int i = 0; i < exp; i++);
     ergebnis = base * exp; //potenz berechnen
     return ergebnis;
-
 }
 
 int main(int argc, char *argv[]) {
@@ -14,11 +13,12 @@ int main(int argc, char *argv[]) {
         printf("Beispiel: bin <binary number>\n");
         return -1;
     }
-    int strlength() {
-        for(int i = 0, [argument][i] != '\0', i++); //mit null terminator enden damit es nicht ewig weiterläuft
-        printf("%d", strlength)
-    }
-    if(argument < 0){
+    int strlength(char *zahl) {
+        int i = 0 //i auf null setzen außerhalb der klammer damit es nicht nur für die klammer gültig ist
+        for(,zahl[i] = != '\0', i++ ); //mit null terminator enden damit es nicht ewig weiterläuft
+        return 1;
+    
+        if(argument < 0){
         printf("Fehler: Bitte bin <binary number> übergeben!\n")//wenn der eingegebene wert kleiner als 0 ist programm beenden
         return -1;
     }
@@ -29,7 +29,7 @@ int main(int argc, char *argv[]) {
     }
 
     char *zahl = argv[1];
-    printf("%d\n", power)
+    printf("%d\n", power);
 
 return 0;
 }
